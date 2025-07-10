@@ -107,7 +107,7 @@
   <h1>比赛系统</h1>
   <div id="start" class="box">
     <label for="studentId">请输入学号：</label>
-    <input type="text" id="studentId" placeholder="如：20231234" required />
+    <input type="text" id="studentId" placeholder="如：2022015" required />
     <button id="startBtn">开始答题</button>
   </div>
 
@@ -173,7 +173,7 @@
       timerDiv.style.display = 'block';
       progressContainer.style.display = 'block';
       showQuestion(current);
-      startTimer(1 * 60); // 15 分钟
+      startTimer(15 * 60); // 15 分钟
     });
 
     function updateProgress() {
